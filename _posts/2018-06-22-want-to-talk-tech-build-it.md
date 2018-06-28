@@ -3,6 +3,8 @@ title: "Want to talk tech? Build it."
 date: 2018-06-22
 categories: communication technology
 ---
+![Build header image]({{"/assets/build.jpg"}})
+
 If you have to communicate with audiences on technology with any frequency, building a demonstration is a great way to up your game. Demos show your audience instead of telling them what the tech is and how it works. It also helps answer the question if the tech is _marketecture_. I feel that demos are one of the most important tools sales engineers, architects, and/or developers have. If you have to educate an audience on a technology, __build a demo__!
 
 Showing rather than telling equates to __MUCH__ higher bandwidth for your message. Your audience can see the tech in action and ideate possibilities, while spending less processing time unpacking your words. A demo also shows your audience that the tech is real and works.
