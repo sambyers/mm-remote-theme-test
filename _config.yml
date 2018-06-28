@@ -13,17 +13,16 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: MM Remote Theme Test
+title: sambyers.net
 email:
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Blog and website of Sam Byers. Sam is a technologist helping fortune 500 companies transform their business digitally.
+  This website has articles detailing what he's learned along the way.
 baseurl: /
 url: https://sambyers.net
 twitter_username: sam_byers
 github_username: sambyers
-minimal_mistakes_skin: dark
+minimal_mistakes_skin: default
 
 # Build settings
 markdown: kramdown
@@ -45,11 +44,11 @@ plugins:
   - jekyll-remote-theme
 
 author:
-  name   : "Michael Rose"
+  name   : "Sam Byers"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  bio    : "I'm a technologist and communicator. I work as a trusted advisor by bridging organizational and technology silos to drive technology adoption and understanding. I care about driving growth in people and business by applying the right technology."
   email  : # optional
-  uri    : "https://mademistakes.com"
+  uri    : "https://samyers.net"
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
