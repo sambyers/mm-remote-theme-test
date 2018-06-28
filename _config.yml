@@ -64,6 +64,8 @@ author:
 #   - vendor/gems/
 #   - vendor/ruby/
 
+search: true
+
 defaults:
   # _posts
   - scope:
