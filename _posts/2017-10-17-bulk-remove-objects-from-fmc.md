@@ -1,8 +1,7 @@
 ---
-layout: post
-title:  "Bulk remove objects from the FMC"
-date:   2017-10-17
-categories: firepower
+title: "Bulk remove objects from the FMC"
+date: 2017-10-17
+categories: firepower technical script
 ---
 I recently had a case where configuration was being imported into an FMC and duplicate objects were being erroneasouly created. This is an issue that doesn't really affect functionality, but it definintely pollutes your objects.
 
