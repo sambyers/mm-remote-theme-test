@@ -1,7 +1,7 @@
 ---
 title: "Network Academy Webinar on Applications of SDN in Cisco"
 date: 2017-02-22
-categories: communication presentation
+categories: communication technology
 ---
 Earlier today I and a few engineers from Cisco spoke on applications of SDN in our current portfolio. We sopke on iWAN, ACI, and Meraki SD-WAN. This was a great webinar focused on detailing SDN solutions at the nuts and bolts level. We had Network Academy students ask awesome questions about the solutions and what we thought about the market for SDN now and in the future. I had a lot of fun fielding questions about iWAN and the future of SD-WAN. Dana and Shiyue did phenomenal jobs breaking down ACI and Meraki SD-WAN.
 

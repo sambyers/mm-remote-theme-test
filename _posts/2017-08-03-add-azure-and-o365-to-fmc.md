@@ -1,7 +1,7 @@
 ---
 title: "Add Azure and Office 365 prefixes to your FirePOWER Management Center"
 date: 2017-08-03 14:49:05 -0400
-categories: firepower technical script
+categories: technology firepower script
 ---
 Recently, I had to add Azure and Office 365 IP prefixes to FMC. There are hundreds of prefixes in the XML files for both of these services! When I saw the size of the files, I reached for my handy scripting tool: Python!
 
