@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: sambyers.net
+title: sambyers.net - technology, culture, business
 email:
 description: >- # this means to ignore newlines until "baseurl:"
   Blog and website of Sam Byers. Sam is a technologist helping fortune 500 companies transform their business digitally.
@@ -46,9 +46,10 @@ plugins:
 author:
   name   : "Sam Byers"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "I'm a technologist and communicator. I work as a trusted advisor by bridging organizational and technology silos to drive technology adoption and understanding. I care about driving growth in people and business by applying the right technology."
+  bio    : "I intensely interested in where people, business, and technology intersect."
   twitter: "sam_byers"
   github : "sambyers"
+  linkedin: "samwbyers"
   uri    : "https://samyers.net"
 
 # Exclude from processing.
