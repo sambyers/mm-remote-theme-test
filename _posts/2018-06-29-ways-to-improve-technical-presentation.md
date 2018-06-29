@@ -27,4 +27,4 @@ Scared to talk in front of people? Worried someone will ask a question you can�
 Mastery over your material will solve many of these common issues. If you know the material well, the resulting confidence will take care of most of these issues. You’ll be more likely to know answers to questions. If you don’t, you’ll feel more confident saying, “I don’t know, but I’ll do some research and get back to you.” Because you’ve already done your homework and you know it’s an edge case or out of scope.
 
 ## You got this!
-I hope this is helpful for folks that have to do technical presentations. These tips have helped me put together some decent presentations but they aren’t all inclusive. There’s plenty of other things you can do to be successful. If you have some secret method or tip for presenting technical material please share it!
+I hope this is helpful for folks that have to do technical presentations. These tips have helped me put together some decent presentations. There’s also plenty of other things you can do to be successful. If you have some secret method or tip for presenting technical material please share it!
