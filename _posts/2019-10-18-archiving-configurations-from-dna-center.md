@@ -25,7 +25,7 @@ Using the the utility is straightforward:
 python dnac_network_device_config_archiver_poc.py
 ```
 
-The utility makes a directories for the configurations it downloads from DNA Center: 
+The utility makes directories for the configurations it downloads from DNA Center: 
 
 ```
 ./DNAC_Config_Archive/2019-10-16 15:36:48.905188/c9200.site1.company.com
@@ -40,6 +40,10 @@ DNAC_USER = 'devnetuser'
 DNAC_PASSWORD = 'Cisco123!'
 ```
 
-## Thank you
+## Now what?
+
+This utility can easily be extneded to suit your needs like copying the configurations to a remote location.
+
+Also, now that you've seen the DNA Center API in action, do you have any ideas or use cases it could be use for?
 
 Thanks for reading and I hope this was helpful!
