@@ -11,7 +11,7 @@ Today I am sharing a small utility to help DNA Center users pull network device 
 
 ## What?
 
-The utility is a python script that uses the REST API of DNA Center. The DNA Center API has a really good API with a lot of functionality. It gives users a unique opportunity to add useful utiliies and functions that don't natively exist on the platform.
+The utility is a python script that uses the REST API of DNA Center. The DNA Center API has a lot of functionality. It gives users a unique opportunity to add useful utiliies and functions that don't natively exist on the platform.
 
 In this case, I'm sure configuration archival will be added in the future by the DNA Center team, but if you have a use case and need to move at speed, the open API enables you to do so. 
 
