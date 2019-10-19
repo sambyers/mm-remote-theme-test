@@ -42,7 +42,7 @@ DNAC_PASSWORD = 'Cisco123!'
 
 ## Now what?
 
-This utility can easily be extneded to suit your needs like copying the configurations to a remote location.
+This utility can easily be extended to suit your needs, like copying the configurations to a remote location.
 
 Also, now that you've seen the DNA Center API in action, do you have any ideas or use cases it could be use for?
 
