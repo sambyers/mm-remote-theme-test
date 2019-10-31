@@ -42,6 +42,7 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-remote-theme
+  - jekyll-include-cache
 
 author:
   name   : "Sam Byers"
