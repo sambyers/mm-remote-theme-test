@@ -1,13 +1,13 @@
 ---
-title: "Archiving Configurations from DNA Center"
+title: "Archiving Configurations from Cisco DNA Center"
 date: 2019-10-18
 categories: api dnac python
 ---
-_Simple utility to archive network device configurations from DNA Center_
+_Simple utility to archive network device configurations from Cisco DNA Center_
 
 ## Why?
 
-Today I am sharing a small utility to help DNA Center users pull network device configurations out of the platform and save them locally. I'm sharing this as an example of what can be done with the DNA Center API and also as a practical POC for a customer that required this functionality.
+Today I am sharing a small utility to help Cisco DNA Center users pull network device configurations out of the platform and save them locally. I'm sharing this as an example of what can be done with the DNA Center API and also as a practical POC for a customer that required this functionality.
 
 ## What?
 
