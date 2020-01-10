@@ -19,7 +19,7 @@ Take what you think is the number of slides you should have and divide by 2. The
 
 To enhance your chances of delivering the message, develop 2-3 ideas you want your audience to understand when they walk out of the presentation. Of course, there are more than 2-3 ideas in your material, but no one is going to walk out with more than 2-3.
 
-Technical content seems like it requires lots of words and diagrams to convey. If the slides are too busy, you’re going to lose folks. Pictures, diagrams, and few words evoke more response from an audience than a paragraph, list, or diagram with five text callouts. You want your audience to focus on what you’re saying and not reading your slide. Every time I see a list on a slide in a presentation I die a little inside. Even in my own presentations! I feel bad I didn’t put the work in to synthesis the material down to understandable chunks. Don’t do this. Put the work in and make your content digestible.
+Technical content seems like it requires lots of words and diagrams to convey. If the slides are too busy, you’re going to lose folks. Pictures, diagrams, and few words evoke more response from an audience than a paragraph, list, or diagram with five text callouts. You want your audience to focus on what you’re saying and not reading your slide. Every time I see a list on a slide in a presentation I die a little inside. Even in my own presentations! I feel bad I didn’t put the work in to synthesize the material down to understandable chunks. Don’t do this. Put the work in and make your content digestible.
 
 ## Mastery brings confidence
 Scared to talk in front of people? Worried someone will ask a question you can’t answer? Not sure which aspects of your material to emphasize?
