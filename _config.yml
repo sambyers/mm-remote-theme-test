@@ -46,7 +46,7 @@ plugins:
 
 author:
   name   : "Sam Byers"
-  avatar : "/assets/images/bio-photo.jpg"
+  avatar : "/assets/images/bio-photo.png"
   bio    : "I'm curious about where people and technology intersect. I believe we can make lives and business better with technology"
   twitter: "sam_byers"
   github : "sambyers"
