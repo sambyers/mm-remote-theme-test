@@ -22,7 +22,7 @@ baseurl: /
 url: https://sambyers.net
 twitter_username: sam_byers
 github_username: sambyers
-minimal_mistakes_skin: "contrast"
+minimal_mistakes_skin: "air"
 
 # Build settings
 markdown: kramdown
