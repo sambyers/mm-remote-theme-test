@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: sambyers.net - people, technology, business
+title: Sam Byers | people + technology
 email:
 description: >- # this means to ignore newlines until "baseurl:"
   Blog and website of Sam Byers. Sam is a technologist helping fortune 500 companies transform their business digitally.
@@ -23,7 +23,7 @@ url: https://sambyers.net
 twitter_username: sam_byers
 github_username: sambyers
 minimal_mistakes_skin: "air"
-
+logo: "/assets/images/logo.png"
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
@@ -67,6 +67,8 @@ author:
 
 search: true
 
+include: ["_pages"]
+
 defaults:
   # _posts
   - scope:
@@ -79,3 +81,10 @@ defaults:
       comments: true
       share: true
       related: true
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
