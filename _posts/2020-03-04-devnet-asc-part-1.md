@@ -5,6 +5,8 @@ categories: devnet certification ccna
 ---
 _I took and passed 200-901 DEVASC. Let's talk about it._
 
+![]({{"/assets/images/devnet-certifications.png"}})
+
 This is part one of this story. I am setting the table of my experience with career certifications and will briefly touch on what I think of the DEVASC exam. In part two, I will detail how I approached preparing for the exam.
 
 I remember passing the CCNA exam and feeling relieved, proud, and accomplished. After half an hour of celebrating something occurred to me. While I had learned a body of knowledge and passed an exam, I hadn't actually created anything. By learning the CCNA body of knowledge, I had only expanded the ways in which I could create valuable outcomes for my employer. It was only the first step.
