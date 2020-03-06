@@ -5,7 +5,7 @@ categories: devnet certification ccna
 ---
 _I took and passed 200-901 DEVASC. Let's talk about it._
 
-![]({{"/assets/images/devnet-certifications.png"}})
+![]({{"/assets/images/devnet-500.png"}})
 
 This is part one of this story. I am setting the table of my experience with career certifications and will briefly touch on what I think of the DEVASC exam. In part two, I will detail how I approached preparing for the exam.
 
