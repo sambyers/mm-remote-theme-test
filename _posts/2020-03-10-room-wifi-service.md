@@ -32,10 +32,10 @@ Users could be added through an API call from a CRM or CIS to create a semi-auto
 
 I drew some high level sequences to show how the process should flow. I’m new to diagraming software interactions and this was good practice.
 
-### Diagram of a CRM or CIS seeding the Room Wifi Service with user information
+### CRM or CIS seeding the Room Wifi Service with user information
 ![](/assets/images/roomwifiservice-crm-cis-sequence.png)
 
-### Diagram of a user tapping the magic link in their registration email
+### User tapping the magic link in their registration email
 ![](/assets/images/roomwifiservice-user-sequence.png)
 
 You can find more details and the code at the [Github repo](https://github.com/CiscoSE/roomwifiservice).
