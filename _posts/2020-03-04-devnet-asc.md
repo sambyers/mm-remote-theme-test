@@ -1,5 +1,5 @@
 ---
-title: "A Wild DevNet Certification Appeared! (part 1)"
+title: "A Wild DevNet Certification Appeared!"
 date: 2020-03-04
 categories: devnet certification ccna
 ---

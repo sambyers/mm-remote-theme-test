@@ -1,6 +1,6 @@
 ---
 title: "A Wild DevNet Certification Appeared! (part 2)"
-date: 2020-03-019
+date: 2020-03-19
 categories: devnet certification study
 ---
 _I took and passed 200-901 DEVASC. Let's talk about it._

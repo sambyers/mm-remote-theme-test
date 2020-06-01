@@ -47,7 +47,7 @@ plugins:
 author:
   name   : "Sam Byers"
   avatar : "/assets/images/bio-photo.png"
-  bio    : "I'm curious about where people and technology intersect. Currently researching network and cloud security."
+  bio    : "Fundamentally, I'm curious about where people and technology intersect. Currently researching *DevOps, cloud, and security. My day job is as a presales architect."
   twitter: "sam_byers"
   github : "sambyers"
   linkedin: "samwbyers"
