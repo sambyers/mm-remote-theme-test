@@ -15,7 +15,9 @@ There are tradeoffs, however. Now labs cost me money to run. I’m testing in a 
 
 So, to enable all of this labbing in AWS and make it easier to deal with some of the tech (IoT devices, other gear at my house, etc.) that doesn't like NAT, CGNAT, etc. I needed to extend the lab VPC OTT to my home lab. I wanted a method to spin up a lab VPC and IPSec tunnels that was automated so I could tear it down when I'm done. This saves me time and money.
 
-My home edge device is a Cisco ASA 5506-X, so that is what I used as the tunnel endpoint on premise. I used AWS customer gateway and AWS VPN gateway as the cloud lab tunnel endpoint. For tooling, I used Terraform for AWS and Ansible for the ASA. I did have to write a quick and dirty script to parse output from Ansible for Terraform to consume and I use Python for that.
+My home edge device is a Cisco ASA 5506-X, so that is what I used as the tunnel endpoint on premise. I used AWS customer gateway and AWS VPN gateway as the cloud lab tunnel endpoint. For tooling, I used Terraform for AWS and Ansible for the ASA.
+
+There were some novelties I created for this to work. I wrote a quick and dirty script to parse output from Ansible for Terraform to consume and I use Python for that. I also created a command parser for the ASA in Ansible to be able to gather interface facts to be able to tell AWS what my VPN endpoint IP address is.
 
 The scripts are in this repo:  
 https://github.com/sambyers/aws-lab-vpc
