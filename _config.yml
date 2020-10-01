@@ -16,7 +16,7 @@
 title: people + technology
 email:
 description: >- # this means to ignore newlines until "baseurl:"
-  Blog and website of Sam Byers. Sam is a technologist helping fortune 500 companies transform their business digitally.
+  Blog and website of Sam Byers. Sam is a technologist helping fortune 500 companies match business problems to technology solution.
   This website has articles detailing what he's learned along the way.
 baseurl: /
 url: https://sambyers.net
@@ -47,7 +47,7 @@ plugins:
 author:
   name   : "Sam Byers"
   avatar : "/assets/images/bio-photo.png"
-  bio    : "Fundamentally, I'm curious about where people and technology intersect. Currently researching SDN, security, and cloud. My day job is as a presales architect."
+  bio    : "I'm interested in business, technology, and people. Currently researching SDN, security, and cloud. My day job is as a presales architect."
   twitter: "sam_byers"
   github : "sambyers"
   linkedin: "sambyers"
