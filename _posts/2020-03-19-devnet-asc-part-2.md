@@ -27,6 +27,8 @@ After I passed the exam, I went back to the topics and read through about half o
 
 CBTNuggets DevNet Associate course seems very promising for this exam too. Knox Hutchinson, Keith Barker, and Ben Finkel are all great trainers and the videos I watched were really great. They are great at breaking down complex topics into bite sized introductions that can really accelerate the beginning of your exploration with a topic.
 
+There's also a Cisco Press book that just came out on October 2, 2020. I have not read it but I looked through the table of contents. It seems to closely follow the exam topics. It has the features common to other Cisco books: chapter quizzes, practice exam, preparation checklists, and a study planner in the index.
+
 ## Schedule
 
 I think it’s very important to have a routine to rely on while studying for an exam. A routine combined with a study plan is the best way to actually get through all of the material for any exam.
@@ -49,17 +51,19 @@ A good mindset for approaching this body of knowledge is that of a software deve
 
 If you’ve made it this far, thank you! I had a lot of fun studying these topics and I learned a lot! I hope something here is helpful for you and good luck on your journey.
 
-## Links to all resources
+## Links to resources
 
 DevNet Associate Exam Topics  
-https://learningnetwork.cisco.com/s/devnet-associate-exam-topics
+[https://learningnetwork.cisco.com/s/devnet-associate-exam-topics](https://learningnetwork.cisco.com/s/devnet-associate-exam-topics)
 
 Nick Russo’s DevNet Associate study guide  
-http://njrusmc.net/jobaid/devasc_studyplan.xlsx
+[http://njrusmc.net/jobaid/devasc_studyplan.xlsx](http://njrusmc.net/jobaid/devasc_studyplan.xlsx)
 
 Cisco Digital Learning Library DevNet Associate course  
-https://digital-learning.cisco.com/#/course/61907
+[https://digital-learning.cisco.com/#/course/61907](https://digital-learning.cisco.com/#/course/61907)
 
 CBTNuggets DevNet Associate Course  
-https://www.cbtnuggets.com/it-training/cisco/devnet-associate
+[https://www.cbtnuggets.com/it-training/cisco/devnet-associate](https://www.cbtnuggets.com/it-training/cisco/devnet-associate)
 
+Cisco Press DevNet Associate book  
+[https://www.ciscopress.com/store/cisco-certified-devnet-associate-devasc-200-901-official-9780136677338](https://www.ciscopress.com/store/cisco-certified-devnet-associate-devasc-200-901-official-9780136677338)
