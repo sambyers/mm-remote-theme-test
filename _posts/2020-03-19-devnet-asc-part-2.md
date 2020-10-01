@@ -1,14 +1,10 @@
 ---
 title: "A Wild DevNet Certification Appeared! (part 2)"
 date: 2020-03-19
-categories: devnet certification study
+categories: devnet certification study devasc
 ---
 
 ![]({{"/assets/images/devnet-certifications.png"}})
-
-In this blog I’m going to detail how I approached the exam. The study materials, schedule, and mindset I employed to pass this exam. Not every format of training material works for everone, so I'll also include resoures that I have cursory knowledge of but seem to have promise.
-
-## Materials and resources
 
 In this blog I’m going to detail how I approached the exam and the study materials, schedule, and mindset to pass this exam. Not every format of training material works for everyone, so I'll also include resources that I have cursory knowledge of but seem to have promise.
 
