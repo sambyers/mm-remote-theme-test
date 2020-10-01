@@ -5,7 +5,7 @@ categories: poc demo wifi wireless meraki flask
 ---
 _Self service wifi for short and medium term guest users_
 
-Recently, I was chatting with some colleagues about interesting applications of API driven infrastructure. They had a come up with an idea and demo to allow short and medium term guests to provision their own wifi networks on an organization's infrastructure. This capability could be used in rented rooms, office space, conference rooms, or other temporary arrangements where self service wifi would be helpful.
+Recently, I was chatting with some colleagues about interesting applications of API driven infrastructure. They had a come up with an idea and demo to allow short and medium term guests to provision their own wifi networks on an organization's infrastructure. This capability could be used in rented rooms, office space, conference rooms, or other temporary arrangements where self service wifi would be helpful. Credit for the original idea goes 100% to Geoff Giulino and Matt Siegel.
 
 My own experience as a guest user lead me to think this was a good idea as a service. I have a lot of devices and usually I don't bother to get them all on wifi when I am a guest user. I will either use my phone as a hotspot or turn on an ad hoc wifi network and share internet through my laptop. I thought it’d be useful if I could do the same thing but with the facility’s AP in my immediate location.
 
