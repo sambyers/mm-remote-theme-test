@@ -3,6 +3,7 @@ title: "AWS Lab VPC Automation"
 date: 2020-03-31
 categories: networking aws automation terraform ansible
 ---
+_Simple automation for my AWS lab to connect to my home lab_
 
 ## AWS Lab VPC
 
