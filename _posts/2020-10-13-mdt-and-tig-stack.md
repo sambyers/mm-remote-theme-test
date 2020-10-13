@@ -118,23 +118,16 @@ Thank you for taking a look at this demo! I'd also like to thank everyone publis
 
 ## Resources
 
-MDT Lab Repo  
-https://github.com/sambyers/mdt_tig_demo
+[MDT Lab Repo](https://github.com/sambyers/mdt_tig_demo)
 
-IOS-XE/CSR1000v MDT Configuration Guide  
-https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/prog/configuration/1610/b_1610_programmability_cg/model_driven_telemetry.html
+[IOS-XE/CSR1000v MDT Configuration Guide](https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/prog/configuration/1610/b_1610_programmability_cg/model_driven_telemetry.html)
 
-IOS-XE MDT Whitepaper  
-https://www.cisco.com/c/en/us/products/collateral/wireless/catalyst-9800-series-wireless-controllers/white-paper-c11-743401.pdf
+[IOS-XE MDT Whitepaper](https://www.cisco.com/c/en/us/products/collateral/wireless/catalyst-9800-series-wireless-controllers/white-paper-c11-743401.pdf)
 
-XPath in NETCONF and YANG  
-https://www.tail-f.com/xpath-netconf-yang/
+[XPath in NETCONF and YANG](https://www.tail-f.com/xpath-netconf-yang/)
 
-Advanced NETCONF Explorer  
-https://github.com/cisco-ie/anx
+[Advanced NETCONF Explorer](https://github.com/cisco-ie/anx)
 
-Cisco MDT Telegraf plugin  
-https://github.com/influxdata/telegraf/tree/master/plugins/inputs/cisco_telemetry_mdt
+[Cisco MDT Telegraf plugin](https://github.com/influxdata/telegraf/tree/master/plugins/inputs/cisco_telemetry_mdt)
 
-Cisco Modeling Labs  
-https://developer.cisco.com/modeling-labs/
+[Cisco Modeling Labs](https://developer.cisco.com/modeling-labs/)
