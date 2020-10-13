@@ -5,9 +5,9 @@ categories: devnet mdt telemetry telegraf influxdb grafana csr yang netconf
 ---
 _Using the TIG stack to consume and visualize MDT_
 
-## Model-Driven Telemetry 
+## Model-driven Telemetry 
 
-Model-Driven telemetry or MDT is streamed or polled operational data from systems structured by a certain data model. Streamed data is emitted from a system and transported to a receiver either when something changes or at an interval. Polled data is retrieved by a receiver from a system at an interval. A data model describes how data is represented and accessed.
+Model-driven telemetry or MDT is streamed or polled operational data from systems structured by a certain data model. Streamed data is emitted from a system and transported to a receiver either when something changes or at an interval. Polled data is retrieved by a receiver from a system at an interval. A data model describes how data is represented and accessed.
 
 In more concrete terms, the data models used for MDT are YANG data models. YANG is a data modeling language used to model configuration and state data on network systems. Refer to RFC 6020 for the details. The transport mechanisms for MDT are typically raw TCP or gRPC (HTTP/2). They can both be wrapped in TLS. The data is encoded in Google protocol buffers.
 
@@ -29,15 +29,25 @@ I hosted my lab on Cisco Modeling Labs or CML. It allows drag and drop or API-ba
 
 ## Lab Environment
 
-In my demo lab we are running TIG and a CSR1000v on Cisco Modeling Labs (CML). We’re going to configure MDT on the CSR to stream CPU utilization and interface data to our TIG stack. We also have to configure Telegraf to use the Cisco MDT input plugin.
+In my demo lab we are running TIG and a CSR1000v on Cisco Modeling Labs (CML). There is an example topology file in the repo to get you started (topology.yaml). To generate an Ansible inventory from our CML lab, we can use cmlutils. It's a great utility when working with CML.
+
+A prerequisite to generating an Ansible inventory is to have nodes tagged. The tag cmlutils is looking for is ansible_group=GROUP_NAME, where GROUP_NAME is the name of the host group you want to put the node in. In this lab, I chose _routers_ for network devices and _tig_ for tig hosts.
+
+To generate an Ansible inventory, use this command:
+
+``` shell
+cml generate ansible
+```
+
+In the lab, we’re going to configure MDT on the CSR to stream CPU utilization and interface data to our TIG stack. We also have to configure Telegraf to use the Cisco MDT input plugin.
 
 ![]({{"/assets/images/mdt.png"}})
 
 Telegraf is our receiver. The CSR1000v is our publisher. My laptop is the management controller.
 
-## Model-driven telemetry Configuration
+## Model-driven Telemetry Configuration
 
-Configuring MDT is straight forward and in this example I’m going to demonstrate the process on IOS-XE. I’m going to use two methods to configure MDT on IOS-XE: CLI and NETCONF.
+Configuring MDT is straight forward and in this example I’m going to demonstrate the process on a IOS-XE (CSR1000v). I’m going to use two methods to configure MDT: CLI and NETCONF.
 
 We don’t want to have to poll the device or even dial-in for data to be streamed back on-demand. We want the network device to stream data on an interval to our receiver. So, we’re going to use the dial-out method on IOS-XE.
 
@@ -85,14 +95,6 @@ For NETCONF, the edit-config RPC looks like this:
 </config>
 ```
 
-## Setup the TIG stack
-
-Setting up a TIG stack is very easy. It’s so easy, in fact, you don’t even need to know how to actually do it. You can just use an Ansible playbook to perform all of the work for you. If you want to see the manual steps, there are many tutorials on the internet.
-
-Check out my repo in the resources section to see an example of a playbook that provisions the stack (setup_mdt_lab_tig_host.yml). In that playbook, I am also adding dhcpd to serve IP addresses out to our lab network 198.18.1.0/24. Comment out that section if you do not want or need DHCP on your lab network.
-
-## Grafana Setup and Dashboard
-
 Now we can run our Ansible playbooks scripts to create MDT subscriptions. The scripts we’re going to run will create MDT subscriptions for CPU utilization and interface stats.
 
 ``` shell
@@ -101,6 +103,16 @@ foo@bar:~$ ansible-playbook -i YOUR_INVENTORY set_mdt_cpu_util.yml
 ``` shell
 foo@bar:~$ ansible-playbook -i YOUR_INVENTORY seet_mdt_intf_stats.yml
 ```
+
+## Setup the TIG stack
+
+Setting up a TIG stack is very easy. It’s so easy, in fact, you don’t even need to know how to actually do it. You can just use an Ansible playbook to perform all of the work for you. If you want to see the manual steps, there are many tutorials on the internet.
+
+Check out my repo in the resources section to see an example of a playbook that provisions the stack (setup_mdt_lab_tig_host.yml). In that playbook, I am also adding dhcpd to serve IP addresses out to our lab network 198.18.1.0/24. Comment out that section if you do not want or need DHCP on your lab network.
+
+In this lab, the tig host is configured as 198.18.1.12/24 on the lab network. The management interface is setup as DHCP.
+
+## Grafana Setup and Dashboard
 
 Now we go to the Grafana dashboard to see our lovely data. The first thing we need to do is add our Influxdb as a data source.
 
@@ -112,7 +124,7 @@ After adding our data source, we can add panels onto our example dashboard.
 
 We have data! This is streaming telemetry from our router to our TIG stack. Our interval is set to every 5 seconds and we’re looking at a graph showing the CPU utilization every 5 seconds. That’s fast!
 
-## The end
+## All Done, For Now
 
 Thank you for taking a look at this demo! I'd also like to thank everyone publishing resources on MDT, as I think this is an important capability to improve observability of infrastructure.
 
@@ -131,3 +143,5 @@ Thank you for taking a look at this demo! I'd also like to thank everyone publis
 [Cisco MDT Telegraf plugin](https://github.com/influxdata/telegraf/tree/master/plugins/inputs/cisco_telemetry_mdt)
 
 [Cisco Modeling Labs](https://developer.cisco.com/modeling-labs/)
+
+[cmlutils](https://github.com/CiscoDevNet/virlutils)
