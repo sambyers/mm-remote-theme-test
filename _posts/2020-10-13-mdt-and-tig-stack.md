@@ -104,6 +104,8 @@ foo@bar:~$ ansible-playbook -i YOUR_INVENTORY set_mdt_cpu_util.yml
 foo@bar:~$ ansible-playbook -i YOUR_INVENTORY seet_mdt_intf_stats.yml
 ```
 
+There are playbooks in the repo to set the NTP server on the router, as well. This is a pretty important step as the router is streaming timestamped data to telegraf. This is a basic requirement of traditional logging systems, as well.
+
 ## Setup the TIG stack
 
 Setting up a TIG stack is very easy. It’s so easy, in fact, you don’t even need to know how to actually do it. You can just use an Ansible playbook to perform all of the work for you. If you want to see the manual steps, there are many tutorials on the internet.
