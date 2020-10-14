@@ -101,7 +101,7 @@ Now we can run our Ansible playbooks scripts to create MDT subscriptions. The sc
 foo@bar:~$ ansible-playbook -i YOUR_INVENTORY set_mdt_cpu_util.yml
 ```
 ``` shell
-foo@bar:~$ ansible-playbook -i YOUR_INVENTORY seet_mdt_intf_stats.yml
+foo@bar:~$ ansible-playbook -i YOUR_INVENTORY set_mdt_intf_stats.yml
 ```
 
 There are playbooks in the repo to set the NTP server on the router, as well. This is a pretty important step as the router is streaming timestamped data to telegraf. This is a basic requirement of traditional logging systems, as well.
