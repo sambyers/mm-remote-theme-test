@@ -19,8 +19,7 @@ My home edge device is a Cisco ASA 5506-X, so that is what I used as the tunnel 
 
 There were some novelties I created for this to work. I wrote a quick and dirty script to parse output from Ansible for Terraform to consume and I use Python for that. I also created a command parser for the ASA in Ansible to be able to gather interface facts to be able to tell AWS what my VPN endpoint IP address is.
 
-The scripts are in this repo:  
-https://github.com/sambyers/aws-lab-vpc
+The scripts are in this [repo](https://github.com/sambyers/aws-lab-vpc).
 
 
 ## Other Ways to do this
