@@ -21,6 +21,8 @@ There were some novelties I created for this to work. I wrote a quick and dirty 
 
 The scripts are in this [repo](https://github.com/sambyers/aws-lab-vpc).
 
+![]({{"/assets/images/aws-vpc-lab.png"}})
+
 
 ## Other Ways to do this
 I looked into a pure Ansible option using roles from the [Ansible network module](https://github.com/ansible-network). There is a role called cloud_vpn that does exactly what these scripts do. There doesn't seem to be support for ASA as an endpoint and the documentation wasn't clear.
