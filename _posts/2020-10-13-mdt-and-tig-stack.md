@@ -106,6 +106,8 @@ foo@bar:~$ ansible-playbook -i YOUR_INVENTORY set_mdt_intf_stats.yml
 
 There are playbooks in the repo to set the NTP server on the router, as well. This is a pretty important step as the router is streaming timestamped data to telegraf. This is a basic requirement of traditional logging systems, as well.
 
+If you want to see the NETCONF configuration done using ncclient directly, take a look at this repo [here](https://github.com/sambyers/netauto_learning/tree/master/mdt/netconf_scripts).
+
 ## Setup the TIG stack
 
 Setting up a TIG stack is very easy. It’s so easy, in fact, you don’t even need to know how to actually do it. You can just use an Ansible playbook to perform all of the work for you. If you want to see the manual steps, there are many tutorials on the internet.
@@ -133,6 +135,8 @@ Thank you for taking a look at this demo! I'd also like to thank everyone publis
 ## Resources
 
 [MDT Lab Repo](https://github.com/sambyers/mdt_tig_demo)
+
+[ncclient scripts](https://github.com/sambyers/netauto_learning/tree/master/mdt/netconf_scripts)
 
 [IOS-XE/CSR1000v MDT Configuration Guide](https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/prog/configuration/1610/b_1610_programmability_cg/model_driven_telemetry.html)
 
