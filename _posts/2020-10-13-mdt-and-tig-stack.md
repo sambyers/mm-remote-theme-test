@@ -5,7 +5,7 @@ categories: devnet mdt telemetry telegraf influxdb grafana csr yang netconf
 ---
 _Using the TIG stack to consume and visualize MDT_
 
-In this post I’m going to cover model-driven telemetry. I’ll first define it and give some explanation of some of the details, then I’ll describe the software stack you’d need to consume and visualize the telemetric data. I’ll also walk through a lab I built recently. I’ll show how to configure MDT on IOS-XE, host to (not) set up a TIG stack on Ubuntu, and how to get the data into Grafana for easy visualization.
+In this post I’m going to cover model-driven telemetry. I’ll first define it and give some explanation of some of the details, then I’ll describe the software stack you’d need to consume and visualize the telemetric data. I’ll also walk through a lab I built recently. I’ll show how to configure MDT on IOS-XE, how to (not) set up a TIG stack on Ubuntu, and how to get the data into Grafana for easy visualization.
 
 ## Model-driven Telemetry 
 
