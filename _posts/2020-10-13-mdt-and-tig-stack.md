@@ -25,7 +25,7 @@ Recently, I was labbing MDT and I had to pick the software to consume the data c
 
 The TIG stack is made up of Telegraf, Influxdb, and Grafana (TIG). Telegraf is a collection and processing engine for metrics. It’s very powerful and has wide support. Influxdb is a time series database. Grafana is an analytics and visualization front end. When these components are wired together they are very useful for operational data.
 
-In the next sections I'll detail a lab I used to demo MDT and the TIG stack. The code is in a repo in the resources section and has scripts to setup the TIG host on Ubuntu, configure a network device for NETCONF and MDT subscriptions.
+In the next sections I'll detail a lab I used to demo MDT and the TIG stack. The code is in a repo in the resources section and has scripts to setup the TIG host on Ubuntu and configure a network device for NETCONF and MDT subscriptions.
 
 I hosted my lab on Cisco Modeling Labs or CML. It allows drag and drop or API-based lab creation. There's a management network, which all nodes in the lab connect to on their first NIC. This network is to access the lab nodes from my laptop. There's also a transport network, which all nodes connect to on their second NIC. This network is meant to carry the telemetry data from publishers to receivers.
 
