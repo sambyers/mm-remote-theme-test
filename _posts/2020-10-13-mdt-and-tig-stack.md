@@ -5,6 +5,8 @@ categories: devnet mdt telemetry telegraf influxdb grafana csr yang netconf
 ---
 _Using the TIG stack to consume and visualize MDT_
 
+In this post I’m going to cover model-driven telemetry. I’ll first define it and give some explanation of some of the details, then I’ll describe the software stack you’d need to consume and visualize the telemetric data. I’ll also walk through a lab I built recently. I’ll show how to configure MDT on IOS-XE, host to (not) set up a TIG stack on Ubuntu, and how to get the data into Grafana for easy visualization.
+
 ## Model-driven Telemetry 
 
 Model-driven telemetry or MDT is streamed or polled operational data from systems structured by a certain data model. Streamed data is emitted from a system and transported to a receiver either when something changes or at an interval. Polled data is retrieved by a receiver from a system at an interval. A data model describes how data is represented and accessed.
@@ -47,7 +49,7 @@ Telegraf is our receiver. The CSR1000v is our publisher. My laptop is the manage
 
 ## Model-driven Telemetry Configuration
 
-Configuring MDT is straight forward and in this example I’m going to demonstrate the process on a IOS-XE (CSR1000v). I’m going to use two methods to configure MDT: CLI and NETCONF.
+Configuring MDT is straightforward and in this example I’m going to demonstrate the process on a IOS-XE (CSR1000v). I’m going to use two methods to configure MDT: CLI and NETCONF.
 
 We don’t want to have to poll the device or even dial-in for data to be streamed back on-demand. We want the network device to stream data on an interval to our receiver. So, we’re going to use the dial-out method on IOS-XE.
 
@@ -130,7 +132,7 @@ We have data! This is streaming telemetry from our router to our TIG stack. Our 
 
 ## All Done, For Now
 
-Thank you for taking a look at this demo! I'd also like to thank everyone publishing resources on MDT, as I think this is an important capability to improve observability of infrastructure.
+Thank you for taking a look at this demo! I'd also like to thank everyone who publishes resources on MDT, as I think this is an important capability to improve the observability of infrastructure.
 
 ## Resources
 
