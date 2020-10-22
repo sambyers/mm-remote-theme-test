@@ -97,13 +97,60 @@ For NETCONF, the edit-config RPC looks like this:
 </config>
 ```
 
-Now we can run our Ansible playbooks scripts to create MDT subscriptions. The scripts we’re going to run will create MDT subscriptions for CPU utilization and interface stats.
+Now we can run our Ansible playbooks to create, show, and delete MDT subscriptions. The scripts we’re going to run will create MDT subscriptions for CPU utilization and interface stats.
 
 ``` shell
 foo@bar:~$ ansible-playbook -i YOUR_INVENTORY set_mdt_cpu_util.yml
+
+foo@bar:~$ ansible-playbook -i YOUR_INVENTORY get_mdt_configl.yml
+
+foo@bar:~$ ansible-playbook -i YOUR_INVENTORY delete_mdt_cpu_util.yml
 ```
 ``` shell
 foo@bar:~$ ansible-playbook -i YOUR_INVENTORY set_mdt_intf_stats.yml
+
+foo@bar:~$ ansible-playbook -i YOUR_INVENTORY get_mdt_configl.yml
+
+foo@bar:~$ ansible-playbook -i YOUR_INVENTORY delete_mdt_intf_stats.yml
+```
+
+This is the MDT configuration Ansible playbook as an example of how these playbooks work:
+
+``` ansible
+---
+- name: Configure MDT for CPU Utilization
+  hosts: routers
+  connection: netconf # We're using the ansible.netcommon NETCONF module plugins netconf_config and netconf_get
+  gather_facts: no
+
+  vars:
+    ansible_netconf_host_key_checking: no
+    sub_id: 505 # We choose this ID for later reference
+    period: 500 # 500 centiseconds
+    xpath: /process-cpu-ios-xe-oper:cpu-usage/cpu-utilization
+    receiver_ip: 198.18.1.12 # Static address of TIG server
+    receiver_port: 57000
+    source_ip: "{{ labip }}"
+
+  tasks:
+    # We have to know the source address of the network device first
+    - name: Get Source Lab IP Address
+      netconf_get:
+        # XML filter to get IPv4 interfaces
+        filter: <interfaces xmlns="http://cisco.com/ns/yang/Cisco-IOS-XE-interfaces-oper"><interface><ipv4/><name/></interface></interfaces>
+        display: json
+      register: results
+    # Record the address for the second NIC and set as var
+    - name: Record Lab IP Address
+      loop: "{{ results.output.data.interfaces.interface }}"
+      when: item.name == "GigabitEthernet2"
+      set_fact:
+        labip: "{{ item.ipv4 }}"
+    # Use RPC template to configure MDT
+    - name: Configure MDT
+      netconf_config:
+        target: running
+        src: templates/set_mdt_rpc.xml.j2
 ```
 
 There are playbooks in the repo to set the NTP server on the router, as well. This is a pretty important step as the router is streaming timestamped data to telegraf. This is a basic requirement of traditional logging systems, as well.
