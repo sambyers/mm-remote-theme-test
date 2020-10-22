@@ -116,7 +116,7 @@ foo@bar:~$ ansible-playbook -i YOUR_INVENTORY delete_mdt_intf_stats.yml
 
 This is the MDT configuration Ansible playbook as an example of how these playbooks work:
 
-``` ansible
+``` yaml
 ---
 - name: Configure MDT for CPU Utilization
   hosts: routers
