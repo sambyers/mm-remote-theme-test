@@ -16,7 +16,7 @@ feature_row:
     alt: "Why We Sleep"
     title: "Why We Sleep"
     excerpt: "An important popular science book aimed at improving our most restorative activity: sleep."
-  - image_path: [Why We Sleep Cover](https://images-na.ssl-images-amazon.com/images/I/8174kfNgcwL.jpg)
+  - image_path: https://images-na.ssl-images-amazon.com/images/I/8174kfNgcwL.jpg
     image_caption: ""
     alt: "placeholder image 2"
     title: "Placeholder 2"
