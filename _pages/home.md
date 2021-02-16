@@ -13,7 +13,7 @@ intro:
   - excerpt: '“My Best Friend is a person who will give me a book I have not read.” -Abraham Lincoln'
 feature_row:
   - image_path: https://images-na.ssl-images-amazon.com/images/I/8174kfNgcwL.jpg
-    image_caption: "Why We Sleep"
+    # image_caption: "Why We Sleep"
     alt: "Why We Sleep"
     title: "Why We Sleep"
     excerpt: "An important popular science book aimed at improving our most restorative activity: sleep."
@@ -21,7 +21,7 @@ feature_row:
     btn_label: "Goodreads"
     btn_class: "btn--primary"
   - image_path: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1526248864l/39014975.jpg
-    image_caption: "The Power of a Positive Team"
+    # image_caption: "The Power of a Positive Team"
     alt: "The Power of a Positive Team"
     title: "The Power of a Positive Team"
     excerpt: "A little generic to begin with but it built steam from chapter 2 to the end."
@@ -29,7 +29,7 @@ feature_row:
     btn_label: "Goodreads"
     btn_class: "btn--primary"
   - image_path: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1567555830l/41436213._SY475_.jpg
-    image_caption: "Sandworm"
+    # image_caption: "Sandworm"
     alt: "The Power of a Positive Team"
     title: "The Power of a Positive Team"
     excerpt: "Compelling and frightening. If you work in tech, read this book."
