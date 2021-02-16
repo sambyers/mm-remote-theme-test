@@ -4,6 +4,8 @@ date: 2021-02-15
 categories: devnet automation certification study
 ---
 
+![DevNet Pro](../assets/images/devnetpro.png)
+
 In this post I’m going to describe the DevNet Pro certification, what it is, how to prepare, and some thoughts on the whole experience.
 
 As of early 2021, there are only two levels of certification in the DevNet ecosystem: Associate and Professional. The DevNet Associate requires one exam, DEVASC. I’ve written previously on the DevNet Associate in two articles on this site. The DevNet Professional requires one core exam candidates must pass and eight specialist exams. Any one of the specialist exams can be passed by a candidate along with the core to become qualified as a DevNet Pro. The flexibility offered in this program is remarkable. After taking three of the exams, I’m confident in the program’s relevance to engineers who are interested in building and automating IT solutions.
@@ -36,6 +38,8 @@ Between 2010 and 2015, I suffered many poor exam experiences that negatively col
 
 For the ENAUTO exam I followed a similar study pattern as for DEVCOR: I reviewed the ENAUTO Cisco Digital Learning Library course, watched a number of the CBTNuggets ENAUTO videos, and built practical examples. This exam is very focused on network automation. Network device automation, DNA Center, SD-WAN, and Meraki make up 80% of this exam. Spend your study time on as many practical examples using these APIs and tools as you can. If you’re a network engineer, this is fast becoming your bread and butter day-to-day. Everything you spend your time on in this exam is likely relevant to your day job or will be soon. Keep calm and automate.
 
+![DevNet Specialist](../assets/images/devnetspec.png)
+
 ## ENAUTO Exam
 
 This exam was a bit different than the previous. Most of the questions in the exam were grounded in the fundamentals of the topics and didn’t frustrate. However, I remember feeling annoyed at some of the questions as they seemed like trivia. I won’t go into specifics, but I’ll say that this exam has room for minor improvement. I’m encouraged to know there are lot of people writing and reviewing new questions constantly. I’m hopeful all questions on the exam will be high quality in the future.
@@ -44,13 +48,15 @@ As with DEVCOR, I took this exam at home using OnVue. I experience no technical 
 
 Beyond the few occurrences of trivia, this exam is much more focused than the core exam. That’s obvious to anyone looking at the exam topics but it didn’t really hit me until I was reading question during the live exam just how focused it was. Specialist certifications are for specialists!
 
+![Meraki Scanning API](../assets/images/scanningapi.png)
+
 ## Final Thoughts
 
 The DevNet Pro is a relevant and flexible certification that shows employers and peers you take automation seriously. I’m pleased by the flexibility of a single common core exam and eight specialization exams. This format provides every candidate a solid foundation and space to dive into their chosen specialty. And if you want to add more specialties, they’re just one exam away. The key takeaways for preparing for these these exams is to take a structured approach, use solid study resources, and practice in the lab. Read and write code. There’s no substitute for practical hands-on experience. I hope this is helpful to you and I wish you good luck in your preparation and exams.
 
 ## Notes & References
 
-More DevNet certification information
+More DevNet certification information  
 <https://developer.cisco.com/certification/>
 
 DEVASC is officially called DevNet Associate Exam v1.0 (DEVASC 200-901).
