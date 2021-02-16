@@ -8,6 +8,8 @@ toc_sticky: true
 
 ![DevNet Pro](../assets/images/devnetpro.png)
 
+## Introduction
+
 In this post I’m going to describe the DevNet Pro certification, what it is, how to prepare, and some thoughts on the whole experience.
 
 As of early 2021, there are only two levels of certification in the DevNet ecosystem: Associate and Professional. The DevNet Associate requires one exam, DEVASC. I’ve written previously on the DevNet Associate in two articles on this site. The DevNet Professional requires one core exam candidates must pass and eight specialist exams. Any one of the specialist exams can be passed by a candidate along with the core to become qualified as a DevNet Pro. The flexibility offered in this program is remarkable. After taking three of the exams, I’m confident in the program’s relevance to engineers who are interested in building and automating IT solutions.
