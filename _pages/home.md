@@ -12,21 +12,30 @@ excerpt: "Let's discover what the Venn is on these. 💡"
 intro: 
   - excerpt: '“My Best Friend is a person who will give me a book I have not read.” -Abraham Lincoln'
 feature_row:
-  - image_path: ""
+  - image_path: https://images-na.ssl-images-amazon.com/images/I/8174kfNgcwL.jpg
+    image_caption: "Why We Sleep"
     alt: "Why We Sleep"
     title: "Why We Sleep"
     excerpt: "An important popular science book aimed at improving our most restorative activity: sleep."
-  - image_path: https://images-na.ssl-images-amazon.com/images/I/8174kfNgcwL.jpg
-    image_caption: ""
-    alt: "placeholder image 2"
-    title: "Placeholder 2"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
-    url: "#test-link"
-    btn_label: "Read More"
+    url: https://www.goodreads.com/book/show/34466963-why-we-sleep
+    btn_label: "Goodreads"
     btn_class: "btn--primary"
-  - image_path: /assets/images/unsplash-gallery-image-3-th.jpg
-    title: "Placeholder 3"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
+  - image_path: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1526248864l/39014975.jpg
+    image_caption: "The Power of a Positive Team"
+    alt: "The Power of a Positive Team"
+    title: "The Power of a Positive Team"
+    excerpt: "A little generic to begin with but it built steam from chapter 2 to the end."
+    url: https://www.goodreads.com/en/book/show/39014975
+    btn_label: "Goodreads"
+    btn_class: "btn--primary"
+  - image_path: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1567555830l/41436213._SY475_.jpg
+    image_caption: "Sandworm"
+    alt: "The Power of a Positive Team"
+    title: "The Power of a Positive Team"
+    excerpt: "Compelling and frightening. If you work in tech, read this book."
+    url: https://www.goodreads.com/book/show/41436213-sandworm
+    btn_label: "Goodreads"
+    btn_class: "btn--primary"
 ---
 
 {% include feature_row id="intro" type="center" %}
