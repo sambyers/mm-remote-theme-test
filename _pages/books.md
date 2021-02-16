@@ -1,14 +1,14 @@
 ---
-title: "Great reads from my night stand"
+title: "Great reads from my bookshelf"
 layout: single
 permalink: /books/
 date: 2021-02-15
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: /assets/images/unsplash-image-1.jpg
+  overlay_image: /assets/images/bookshelf.jpg
   caption: ""
-excerpt: "Let's discover what the Venn is on these. 💡"
+excerpt: ""
 intro: 
   - excerpt: '“My Best Friend is a person who will give me a book I have not read.” Abraham Lincoln'
 feature_row:
