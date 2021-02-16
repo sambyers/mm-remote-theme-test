@@ -1,7 +1,7 @@
 ---
 title: "People, technology, business"
-layout: splash
-permalink: /home/
+layout: home
+permalink: /
 date: 2021-02-15
 header:
   overlay_color: "#000"
