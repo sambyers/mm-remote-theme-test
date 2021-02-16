@@ -1,6 +1,6 @@
 ---
 title: "Home"
-layout: splash
+layout: home
 permalink: /home/
 date: 2021-02-15
 header:
