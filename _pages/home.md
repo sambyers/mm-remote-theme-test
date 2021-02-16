@@ -13,10 +13,10 @@ intro:
   - excerpt: '“My Best Friend is a person who will give me a book I have not read.” -Abraham Lincoln'
 feature_row:
   - image_path: ""
-    alt: "placeholder image 1"
-    title: "Placeholder 1"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
-  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
+    alt: "Why We Sleep"
+    title: "Why We Sleep"
+    excerpt: "An important popular science book aimed at improving our most restorative activity: sleep."
+  - image_path: [Why We Sleep Cover](https://images-na.ssl-images-amazon.com/images/I/8174kfNgcwL.jpg)
     image_caption: ""
     alt: "placeholder image 2"
     title: "Placeholder 2"
