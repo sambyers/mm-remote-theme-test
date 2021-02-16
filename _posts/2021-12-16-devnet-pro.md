@@ -1,6 +1,6 @@
 ---
 title: "Cisco DevNet Pro"
-date: 2020-02-15
+date: 2021-02-15
 categories: devnet automation certification study
 ---
 
