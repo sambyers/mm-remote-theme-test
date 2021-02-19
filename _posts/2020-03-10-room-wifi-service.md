@@ -2,6 +2,8 @@
 title: "Room Wifi Service POC"
 date: 2020-03-10
 categories: poc demo wifi wireless meraki flask
+toc: true
+toc_sticky: true
 ---
 _Self service wifi for short and medium term guest users_
 

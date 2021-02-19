@@ -1,7 +1,8 @@
 ---
 title: "Cisco DevNet Pro"
 date: 2021-02-15
-categories: devnet automation certification study
+categories: certification
+tags: devnet automation certification study
 toc: true
 toc_sticky: true
 ---

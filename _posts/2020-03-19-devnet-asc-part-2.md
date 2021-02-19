@@ -2,6 +2,8 @@
 title: "A Wild DevNet Certification Appeared! (part 2)"
 date: 2020-03-19
 categories: devnet certification study devasc
+toc: true
+toc_sticky: true
 ---
 _Study plan details from my preparation for the DEVASC exam_
 
