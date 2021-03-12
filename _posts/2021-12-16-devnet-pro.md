@@ -21,9 +21,9 @@ In 2020, I passed the DEVCOR and ENAUTO exams to complete the Cisco DevNet Pro c
 
 When I prepare for an IT exam, I organize the body of knowledge I’m expected to know and work through it systematically. Most of the time, I take topics in order of appearance in the certification program’s materials. I study each topic with this process:
 
-1) Review for awareness and basic understanding with beginner friendly resources.
-2) Review again to dive deeper into all available resources for an in-depth understanding and in-depth practical applications.
-3) Connect to related topics and create practical scenarios to gain in-depth understanding.
+1. Review for awareness and basic understanding with beginner friendly resources.
+2. Review again to dive deeper into all available resources for an in-depth understanding and in-depth practical applications.
+3. Connect to related topics and create practical scenarios to gain in-depth understanding.
 
 After that process I consider a topic completed and I move onto other topics. If my study schedule is longer than three months or so, I’ll review previous topics weekly or biweekly to keep my understanding fresh. That’s it!
 
